@@ -1,0 +1,1024 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(/b.jpg) no-repeat center center/cover;
+}
+.hero .t {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 400px;
+  color: white;
+}
+
+.hero2 {
+  width: 100%;
+  height: 800px;
+  background: url(/images.jpg) no-repeat center center/cover;
+}
+
+.hero2 h1 {
+  padding-top: 20px;
+  color: white;
+  font-size: 50px;
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 {
+  padding-top: 20px;
+  color: white;
+  font-size: 50px;
+}
+
+nav {
+  padding-top: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: center;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 30px;
+  display: flex;
+  margin-left: 90px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  color: rgb(126, 98, 25);
+}
+
+ul i {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-top: 1px;
+  margin-left: 50px;
+}
+
+ul i {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+ul i:hover {
+  color: rgb(126, 98, 25);
+}
+
+.content {
+  width: 1200px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 30px;
+  text-align: center;
+  transform: scale(1.02);
+}
+
+.content h3 {
+  font-size: 35px;
+  padding-top: 20px;
+  font-weight: bold;
+  color: rgb(126, 98, 25);
+}
+
+.content h2 {
+  font-size: 50px;
+  color: white;
+  padding-top: 30px;
+}
+
+.content p {
+  font-size: 30px;
+  padding-top: 40px;
+  color: white;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  background-color: none;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  color: rgb(247, 245, 245);
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: left;
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  background-color: rgb(126, 98, 25);
+  color: black;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(20, 18, 18);
+  color: white;
+  padding: 50px;
+  gap: 150px;
+  padding-top: 100px;
+}
+
+.end {
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.footer-content1 {
+  font-size: 20px;
+}
+
+.footer-content {
+  font-size: 20px;
+}
+
+.footer-content .icon {
+  font-size: 40px;
+  color: white;
+  padding: 15px;
+}
+
+.footer-content .icon:hover {
+  color: darkblue;
+}
+
+.conatiner {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: 30px;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 15px;
+  background-color: black;
+  padding-bottom: 50px;
+}
+.conatiner .items {
+  border-radius: 2px;
+}
+.conatiner .items img {
+  width: 500px;
+  height: 300px;
+}
+.conatiner .items h1, .conatiner .items p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.conatiner .items h1 {
+  font-size: 35px;
+}
+
+.blog {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 40px;
+}
+
+.blog:hover {
+  transform: scale(1.02);
+  transition: all;
+}
+
+.about {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 800px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.about h1 {
+  padding-left: 40px;
+  font-size: 50px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.about-content img {
+  width: 800px;
+  height: 100vh;
+  padding-right: 10px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card1 p {
+  font-size: 70px;
+  padding-bottom: 40px;
+}
+.card1 h3 p {
+  font-size: 25px;
+}
+.card1 h2 p {
+  font-size: 25px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 60px;
+  background-color: rgb(249, 245, 245);
+  text-decoration: none;
+  font-size: 25px;
+  border: 3px solid rgb(126, 98, 25);
+  padding: 20px;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  align-items: center;
+  padding-left: 20px;
+  margin-right: 200px;
+  padding-bottom: 50px;
+}
+
+.btn1:hover {
+  background-color: rgb(126, 98, 25);
+  color: rgb(250, 249, 249);
+  border: 3px solid white;
+}
+
+.contact {
+  background-color: black;
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 150vh;
+}
+.contact .card2 {
+  padding-top: 80px;
+}
+.contact .card2 h1 {
+  font-size: 50px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.contact .card2 p {
+  padding-top: 20px;
+  font-size: 30px;
+  padding-left: 30px;
+}
+.contact .card2 p span {
+  color: rgb(126, 98, 25);
+}
+.contact .form {
+  padding-top: 200px;
+  padding-left: 500px;
+  font-size: 25px;
+}
+.contact .form input {
+  padding-left: 200px;
+  font-size: 20px;
+  padding-top: 15px;
+}
+.contact #msg {
+  width: 500px;
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.btmm {
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  text-decoration: none;
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 40px;
+}
+
+.btmm:hover {
+  background-color: rgb(252, 246, 246);
+  color: rgb(15, 16, 16);
+}
+
+.menu {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.f {
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.menu .f h3 {
+  align-items: center;
+  font-size: 40px;
+}
+
+.menu {
+  display: flex;
+  background-color: rgb(20, 18, 18);
+  color: white;
+  padding: 50px;
+  gap: 150px;
+  padding-top: 100px;
+}
+
+.f1 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.f1 .imd {
+  padding: 5px;
+  border-radius: 100%;
+  width: 80px;
+}
+
+.d {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.d .product {
+  text-align: center;
+  padding-top: 300px;
+  color: white;
+}
+.d .product h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.d .product h2 {
+  font-size: 40px;
+  color: rgb(126, 98, 25);
+}
+.d .product p {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.f .imd {
+  padding: 5px;
+  border-radius: 100%;
+  width: 80px;
+}
+
+.menu {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.f {
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.menu .f h3 {
+  align-items: center;
+  font-size: 40px;
+}
+
+.menu {
+  display: flex;
+  background-color: rgb(20, 18, 18);
+  color: white;
+  padding: 50px;
+  gap: 150px;
+  padding-top: 100px;
+}
+
+.f1 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.f1 .imd {
+  padding: 5px;
+  border-radius: 100%;
+  width: 80px;
+}
+
+.d {
+  background-color: black;
+  height: 1000px;
+  color: white;
+}
+.d .product {
+  text-align: center;
+  padding-top: 60px;
+  color: white;
+}
+.d .product h1 {
+  font-size: 50px;
+  padding-top: 20px;
+}
+.d .product h2 {
+  font-size: 40px;
+  color: rgb(126, 98, 25);
+}
+.d .product p {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.parent {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 100px;
+}
+
+/* main dish */
+.F {
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+.F h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.parent img {
+  height: 350px;
+  width: 370px;
+  justify-content: space-around;
+  margin-left: 13px;
+}
+
+.F .parent .card .btnn {
+  border: 2px solid rgb(126, 98, 25);
+  width: 40px;
+  height: 25px;
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 100px;
+  color: white;
+}
+
+.F .parent .card .btnn:hover {
+  background-color: rgb(254, 251, 251);
+  color: rgb(8, 8, 8);
+}
+
+.F .parent .card h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.F .parent .card h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.g {
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+.g h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.parent {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.parent img {
+  height: 400px;
+  width: 370px;
+  justify-content: space-around;
+  margin-left: 13px;
+}
+
+.g .parent .card .btnn {
+  border: 2px solid rgb(126, 98, 25);
+  width: 40px;
+  height: 25px;
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 100px;
+  color: white;
+}
+
+.g .parent .card .btnn:hover {
+  background-color: rgb(254, 251, 251);
+  color: rgb(8, 8, 8);
+}
+
+.g .parent .card h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.g .parent .card h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.p {
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+.p h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.parent {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.parent img {
+  height: 400px;
+  width: 370px;
+  justify-content: space-around;
+  margin-left: 13px;
+}
+
+.p .parent .card .btnn {
+  border: 2px solid rgb(126, 98, 25);
+  width: 40px;
+  height: 25px;
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 100px;
+  color: white;
+}
+
+.p .parent .card .btnn:hover {
+  background-color: rgb(254, 251, 251);
+  color: rgb(8, 8, 8);
+}
+
+.p .parent .card h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.p .parent .card h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.map {
+  width: 1200px;
+  height: 100vh;
+}
+
+.cart {
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 0px;
+  align-items: center;
+  padding-top: 50px;
+}
+.cart h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(126, 98, 25);
+}
+.cart h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.cart p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.conatiner .btnn {
+  border: 2px solid rgb(126, 98, 25);
+  width: 40px;
+  height: 25px;
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 160px;
+  color: white;
+}
+
+.service {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 30px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding-left: 40px;
+}
+.service .card3 {
+  margin-left: 0px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 3px solid rgb(250, 246, 246);
+}
+.service p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.service h1 {
+  padding-top: 15px;
+  color: rgb(126, 98, 25);
+}
+
+.a {
+  margin: 0 auto;
+  background-color: black;
+  height: 1000px;
+  width: 100%;
+}
+.a h1 {
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+}
+
+.b {
+  display: flex;
+}
+
+.shopp {
+  flex: 70%;
+}
+
+.box2 {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: white;
+  transition: all 0.6s ease;
+  box-shadow: rgba(100, 100, 111, 0.2);
+  padding-left: px;
+}
+.box2 img {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box2:hover {
+  transform: scale(1.02);
+}
+
+.content1 {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+.content1 h3 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.content1 h4 {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.content1 .btn4 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 25px;
+  background-color: rgb(126, 98, 25);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.content1 .btn4:hover {
+  background-color: #f4f8f8;
+  color: black;
+}
+.content1 .unit input {
+  width: 50px;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.content1 .btn4 {
+  margin-right: 5px;
+}
+
+.rb {
+  flex: 25%;
+  margin-left: 20px;
+  padding: 20px;
+  height: 600px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: rgba(7, 237, 91, 0.2);
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.rb hr {
+  margin-bottom: 30px;
+}
+.rb p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.rb a {
+  background-color: rgb(126, 98, 25);
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: 40px;
+  line-height: 50px;
+  font-weight: 900;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.rb i {
+  margin-right: 20px;
+}
+.rb a:hover {
+  background-color: rgb(126, 98, 25);
+}
+
+.doi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: black;
+}
+.doi img {
+  width: 400px;
+  height: 300px;
+  padding-right: 20px;
+}
+
+.i {
+  background-color: black;
+  height: 600px;
+  color: white;
+}
+
+.parent .card .btnn {
+  border: 2px solid rgb(126, 98, 25);
+  width: 40px;
+  height: 25px;
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 100px;
+  color: white;
+}
+
+.parent .card .btnn:hover {
+  background-color: white;
+  color: black;
+}
+
+.parent .card h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.parent .card h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.login {
+  margin: 30px 50px;
+  width: 30%;
+  height: 590px;
+  border: 2px solid black;
+  padding: 20px 30px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 4px 7px 100px rgb(254, 251, 251);
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.login input {
+  width: 99%;
+  padding: 18px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.login input::-moz-placeholder {
+  color: black;
+  font-weight: bold;
+}
+.login input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.login h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: -20px;
+}
+.login .input p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.login .icon8 {
+  font-size: 30px;
+  gap: 20px;
+}
+.login .icon8 i {
+  cursor: pointer;
+  gap: 20px;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-top: 20px;
+  color: rgb(8, 8, 8);
+}
+.login .icon8 i:hover {
+  color: white;
+}
+.login input[type=submit] {
+  background-color: rgb(236, 10, 10);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.login input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+.login .other1 p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.login .fp a {
+  text-decoration: none;
+  color: red;
+  padding-left: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: auto;
+  }
+  .hero {
+    height: auto;
+  }
+  ul li {
+    margin-left: 0px;
+  }
+  .parent {
+    width: auto;
+    height: auto;
+  }
+}/*# sourceMappingURL=style1.css.map */
